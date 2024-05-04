@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV Form</title>
+</head>
+<body>
+<div class="container">
+    <h1>CV Form</h1>
+    <form action="cv.php" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone">
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address">
+
+        <label for="summary">Summary:</label>
+        <textarea id="summary" name="summary"></textarea>
+
+        <label for="experience">Experience:</label>
+        <textarea id="experience" name="experience"></textarea>
+
+        <label for="education">Education:</label>
+        <textarea id="education" name="education"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>
